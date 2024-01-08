@@ -1,6 +1,7 @@
 name: tests
 
 on:
+  workflow_dispatch:
   push:
     branches-ignore:
     - 'wip-*'
@@ -28,6 +29,12 @@ jobs:
         - version: 3.7
           toxenv: py37,flask,django,py3
         - version: 3.8
+          toxenv: py38,flask,django,py3
+        - version: 3.9
+          toxenv: py38,flask,django,py3
+        - version: 3.10
+          toxenv: py38,flask,django,py3
+        - version: 3.11
           toxenv: py38,flask,django,py3
 
     steps:
