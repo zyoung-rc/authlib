@@ -4,7 +4,7 @@ Authlib
 The ultimate Python library in building OAuth and OpenID Connect servers.
 JWS, JWK, JWA, JWT are included.
 
-Useful Links
+Useful  Links
 ------------
 
 1. Homepage: https://authlib.org/
