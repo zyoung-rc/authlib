@@ -71,11 +71,8 @@
 
 name: tests
 on:
+  workflow_dispatch:
   push:
-    workflow_dispatch:
-    branches:
-      - master
-      - main
 jobs:
   tests:
     name: tests
