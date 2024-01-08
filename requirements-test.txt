@@ -3,3 +3,7 @@ requests
 mock
 pytest
 coverage
+flask==2.0.2
+werkzeug==2.0.2
+flask-sqlalchemy==2.3.2
+sqlalchemy==1.3.24
